@@ -54,8 +54,8 @@ function renderAvatar(user) {
     $('#welcome').html('欢迎&nbsp;&nbsp' + name);
     // 3 按需渲染用户的头像
     if (user.user_pic !== null) {
-        // 3.1 渲染图片头像
-        $('layui-nav-img').attr('src', user.user_pic).show()
+        // 3.1 渲染图片头像  这个点一定要注意
+        $('.layui-nav-img').attr('src', user.user_pic).show()
         $('.text-avatar').hide()
     } else {
         //渲染文本头像
