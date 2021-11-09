@@ -39,6 +39,7 @@ $(function() {
     })
 
     // 为确定按钮，绑定点击事件
+    // 为确定按钮，绑定点击事件
     $('#btnUpload').on('click', function() {
         // 1. 要拿到用户裁剪之后的头像
         var dataURL = $image
